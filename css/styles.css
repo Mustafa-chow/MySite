@@ -9,8 +9,8 @@ h1
 
 .topContainer
 {
-  text-align: center;
-  background-color: #E4F9F5;
+  /*text-align: center;*/
+  background-color: #c8dad3;
   padding: 20px;
 }
 .middleContainer
@@ -24,4 +24,8 @@ h1
   background-color: #aee7e8;
   height: 200px;
   width: 200px;
+}
+.school
+{
+  color: red;
 }
