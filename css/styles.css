@@ -7,25 +7,58 @@ h1
   margin-top: 0;
 }
 
+/*first div*/
 .topContainer
 {
   /*text-align: center;*/
   background-color: #c8dad3;
   padding: 20px;
 }
+
+.top2nd{
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+.topHorizontalLine
+{
+  border-color: gray;
+  border-style: dotted none none none;
+  border-width: 8px;
+  width: 25%;
+}
+
+/*2nd div*/
 .middleContainer
 {
   background-color: #95adbe;
   height: 200px;
   width: 200px;
 }
+
+/*3rd div*/
 .bottomContainer
 {
   background-color: #aee7e8;
   height: 200px;
   width: 200px;
 }
+
 .school
 {
-  color: red;
+  text-decoration: underline;
+}
+
+/* all images css */
+
+.tower{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.mountain{
+  position: absolute;
+  height: 300px;
+  right: 400px;
+  width: 400px;
 }
