@@ -34,6 +34,26 @@ h1
   width: 25%;
 }
 
+.bottom-container
+{
+  background-color: gray;
+  padding: 50px 0px 10px 0px;
+}
+.footer-link1{
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 500px;
+  background-color: blue;
+}
+.footer-link:hover
+{
+  position:relative;
+  background-color: blue;
+  width:50px;
+  height:500px;
+
+}
+
 .school
 {
   color: red;
