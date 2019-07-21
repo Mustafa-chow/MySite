@@ -3,7 +3,7 @@ body
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #e6f8f9;
+  color: #40514e;
   font-size: 1rem;
 }
 h1
@@ -18,13 +18,32 @@ h1
 h2
 {
   color: #11999E;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 h3
 {
   padding-top: 50px;
-  color: #11999E;
+  color: #66BFBF;
 }
 
+/* horizontal line */
+hr
+{
+  border-color: #93b5b3;/* test #c8e6f5;*/
+  border-style: dotted none none none;
+  border-width: 8px;
+  width: 4%;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*---- top ----*/
 .topContainer
 {
@@ -32,20 +51,21 @@ h3
   background-color: #e6f8f9; */
   position: relative;
   padding-top: 75px;
+  background-color: #d3f6f3;
+}
+.intro
+{
+  width:35%;
+  margin: auto;
 }
 
+}
 .top2nd{
   text-align: center;
   position: relative;
   bottom: 50px;
 }
-.topHorizontalLine
-{
-  border-color: gray;
-  border-style: dotted none none none;
-  border-width: 8px;
-  width: 25%;
-}
+
 .top-paragraph
 {
   margin-top: 20px;
@@ -56,27 +76,74 @@ h3
   color: #11999E;
 }
 /* middle */
+.middle-container
+{
+  magrin: 100px 0px;
+  background-color: #eaf6f6; /*test #eaf6f6*/
+  padding-bottom: 2px;
+}
 .skill-row
 {
   position: relative;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 0px auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
-  text
+  line-height: 1.5;
+}
+
+/* contact me */
+.contact-me
+{
+  padding-bottom: 120px;
+
+  width:40%;
+  margin: 40px auto 0px auto;
+}
+.btn
+{
+  position: relative;
+  top:50px;
+  bottom:50px;
+
+  color: white;
+  background-color: #50b6bb;
+  padding: 10px 15px 10px 15px;
+  border:  5px;
+  text-decoration: none;
+  font-size: .9rem;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif, arial;
+  font-weight: normal;
+}
+.btn:hover
+{
+  color: #ca3e47;
+
+  font-weight: bold;
+
+}
+
+
+/* images on middle container */
+.profile
+{
+  margin-top: 100px;
+  border-radius: 100%;
 }
 .skill-c
 {
-  border-radius: 100%;
-  width: 25%;
+  border-radius: 75%;
+  width: 15%;
   float: left;
-  margin-right: 50px;
+  margin-right: 45px;
+
 }
 .skill-java
 {
-  border-radius: 100%;
-  width: 25%;
+  border-radius: 75%;
+  width: 15%;
   float: right;
+
 }
 
 
@@ -84,27 +151,29 @@ h3
 .bottom-container
 {
 
-  background-color: gray;
-  padding: 50px 0px 10px 0px;
+  background-color: #226b80;
+
+  padding: 30px 0px 10px 0px;
+  color: #EAF6F6;
+  font-size: 0.9rem;
 }
+
 .footer-link:hover
 {
   width: 50px;
   height: 75px;
+  clear: none;
 }
-
+/* bottom finished */
 .school
 {
-  color: red;
+  color: green;
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 /* all images css */
-.profile
-{
-  border-radius: 100%;
-}
 .tower{
   height: 80px;
   width: 80px;
