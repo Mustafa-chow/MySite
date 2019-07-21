@@ -4,12 +4,25 @@ body
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: #e6f8f9;
+  font-size: 1rem;
 }
 h1
 {
   padding-top: 10px;
   text-align: center;
   font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #11999E;
+  margin-bottom: 10px;
+}
+h2
+{
+  color: #11999E;
+}
+h3
+{
+  padding-top: 50px;
+  color: #11999E;
 }
 
 /*---- top ----*/
@@ -33,6 +46,39 @@ h1
   border-width: 8px;
   width: 25%;
 }
+.top-paragraph
+{
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #11999E;
+}
+/* middle */
+.skill-row
+{
+  position: relative;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  text
+}
+.skill-c
+{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+.skill-java
+{
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+}
+
 
 /*-- bottom ---*/
 .bottom-container
@@ -55,7 +101,10 @@ h1
 }
 
 /* all images css */
-
+.profile
+{
+  border-radius: 100%;
+}
 .tower{
   height: 80px;
   width: 80px;
@@ -66,4 +115,8 @@ h1
   position: absolute;
   top: 50px;
   right: 600px;
+}
+.icon-references
+{
+  font-size: 0.8rem;
 }

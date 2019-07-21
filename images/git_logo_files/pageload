@@ -1,0 +1,1 @@
+/**/ typeof atatus._setFeatures === 'function' && atatus._setFeatures({"error":"Browser Trial period has been ended!"});
