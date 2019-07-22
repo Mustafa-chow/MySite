@@ -5,7 +5,12 @@ body
   font-family: 'Merriweather', serif;
   color: #40514e;
   font-size: 1rem;
+
 }
+.main{
+  margin: auto auto auto auto;
+}
+
 h1
 {
   padding-top: 10px;
@@ -34,7 +39,7 @@ h3
 /* horizontal line */
 hr
 {
-  border-color: #93b5b3;/* test #c8e6f5;*/
+  border-color: #c8e6f5;/* test # 93b5b3;*/
   border-style: dotted none none none;
   border-width: 8px;
   width: 4%;
@@ -167,7 +172,7 @@ hr
 /* bottom finished */
 .school
 {
-  color: green;
+  color: yellow;
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
