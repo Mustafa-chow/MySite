@@ -100,22 +100,21 @@ hr
 .contact-me
 {
   padding-bottom: 120px;
-
   width:40%;
   margin: 40px auto 0px auto;
 }
 .btn
 {
   position: relative;
-  top:50px;
-  bottom:50px;
-
+  top:70px;
+  bottom:70px;
+  border-radius: 8px;
   color: white;
   background-color: #50b6bb;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 12px 15px;
   border:  5px;
   text-decoration: none;
-  font-size: .9rem;
+  font-size: .98rem;
   line-height: 1.2;
   font-family: 'Montserrat', sans-serif, arial;
   font-weight: normal;
