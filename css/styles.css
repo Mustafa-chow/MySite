@@ -105,6 +105,7 @@ hr
 }
 .btn
 {
+
   position: relative;
   top:70px;
   bottom:70px;
@@ -155,7 +156,7 @@ hr
 .bottom-container
 {
 
-  background-color: #226b80;
+  background-color: #696464;/*#226b80;*/ 
 
   padding: 30px 0px 10px 0px;
   color: #EAF6F6;
